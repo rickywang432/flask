@@ -1,0 +1,1 @@
+web: gunicorn --bind=unix:/tmp/gunicorn.sock --workers=4 manage:app
